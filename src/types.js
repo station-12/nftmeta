@@ -1,9 +1,9 @@
 // Adapted from https://github.com/metaplex-foundation/metaplex/blob/master/js/packages/cli/src/types.ts
 
-import anchor from '@project-serum/anchor';
+import * as anchor from '@project-serum/anchor';
 const { BN } = anchor;
 
-import web3 from '@solana/web3.js';
+import * as web3 from '@solana/web3.js';
 const { PublicKey, AccountInfo } = web3;
 
 export const MetadataKey = {

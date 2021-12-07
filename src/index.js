@@ -1,7 +1,7 @@
 import JsonRpc from 'node-jsonrpc-client';
-import web3 from '@solana/web3.js';
+import * as web3 from '@solana/web3.js';
 import { Metadata, METADATA_SCHEMA } from './types.js';
-import borsh from 'borsh';
+import * as borsh from 'borsh';
 
 const { PublicKey } = web3;
 
