@@ -5,7 +5,7 @@ import * as borsh from 'borsh';
 
 const { PublicKey } = web3;
 
-const client = new JsonRpc(process.env.RPC_URL || 'https://explorer-api.mainnet-beta.solana.com');
+const client = new JsonRpc(process.env.REACT_APP_SOLANA_RPC_HOST || 'https://explorer-api.mainnet-beta.solana.com');
 
 const pubKeyCache = {};
 const addressCache = {};
