@@ -4,7 +4,7 @@ import * as anchor from '@project-serum/anchor';
 const { BN } = anchor;
 
 import * as web3 from '@solana/web3.js';
-const { PublicKey, AccountInfo } = web3;
+const { PublicKey } = web3;
 
 export const MetadataKey = {
     Uninitialized: 0,
